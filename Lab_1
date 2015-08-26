@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Hello World</title>
+	<style>
+		body{
+			backgroundcolor: #cfcfcf;
+			h1 {
+			color:green;
+			text-align:	left;
+			font-size: 70%;
+			{
+				font-family: 'arial';
+				font-size: 50%;
+				}
+			}
+		}
+	</style>
+	
+</head>
+<body>
+	<h1>Heading</h1>
+	<p id='myParagraph'>My Paragraph.</p>
+</body>
+<script>
+	alert('Hello World!');
+	console.log('Hello Again');
+	document.write('Hi There!');
+	document.getElementById('myParagraph').innerHTML = 'Hello World';
+</script>
+</html>
