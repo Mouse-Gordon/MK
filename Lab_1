@@ -27,5 +27,6 @@
 	console.log('Hello Again');
 	document.write('Hi There!');
 	document.getElementById('myParagraph').innerHTML = 'Hello World';
+document.getElementById('myParagraph').innerHTML = 'Bye Now';
 </script>
 </html>
